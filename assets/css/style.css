@@ -1,5 +1,19 @@
 body {
-    background-image: url(logo.jpg);
-    /* Otras propiedades de estilo */
-    background-color: black;
+  background-image: url(logo.jpg);
+
+  background-color: black;
+}
+.contenedor-banner {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-con-bordes {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
