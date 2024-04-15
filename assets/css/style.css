@@ -3,18 +3,3 @@ body {
     /* Otras propiedades de estilo */
     background-color: black;
 }
-
-body {
-    position: relative;
-}
-body::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black; /* Color de fondo */
-    opacity: 0.5; /* Opacidad de la capa */
-    z-index: -1; /* Colocar detrás de otros elementos */
-}
